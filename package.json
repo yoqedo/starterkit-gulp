@@ -1,0 +1,26 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "Template",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "minifycss": "gulp minifycss",
+    "copyhtml": "gulp copyhtml",
+    "copyjs": "gulp copyjs",
+    "start": "gulp",
+    "public": "gulp --npm run minifycss --npm run copyhtml --npm run copyjs"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0"
+  },
+  "dependencies": {
+    "gulp-css-scss": "^0.1.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
